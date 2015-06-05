@@ -32,7 +32,7 @@ owner:
   email: 
   disqus-shortname: 
   twitter: #username
-  facebook: https://www.facebook.com/bruno.feldmannprusch
+  facebook: /bruno.feldmannprusch
   google:
     plus: #username
     analytics: 
@@ -40,7 +40,7 @@ owner:
     ad-client: 
     ad-slot: 
   bing-verify: 
-  github: https://github.com/brunofprusch
+  github: /brunofprusch
   stackoverflow: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   xing: #username
