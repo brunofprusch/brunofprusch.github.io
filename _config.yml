@@ -40,7 +40,7 @@ owner:
     ad-client: 
     ad-slot: 
   bing-verify: 
-  github: #username
+  github: https://github.com/brunofprusch
   stackoverflow: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   xing: #username
