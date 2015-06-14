@@ -11,5 +11,3 @@ image:
 ---
 
 Desenvolver de Software com três anos e meio de experiência, sempre em busca de novos conhecimentos.
-
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
