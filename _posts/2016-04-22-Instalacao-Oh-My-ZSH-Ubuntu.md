@@ -1,18 +1,16 @@
 ---
 layout: post
 title: Instalação Oh-My-ZSH no Ubuntu
-excerpt: ""
+excerpt: "Tutorial de instalação e configuração do Oh-My-ZSH"
 modified: 2016-04-22
 tags: [intro, beginner, jekyll, tutorial]
 comments: true
-image:
-  feature: sample-image-5.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
 Tutorial de instalação do Oh-My-ZSH. Você poderia intalar e utilizar o pacote ZSH, porém o mesmo é um pouco complicado de configurar, por este motivo a comunidade criou o Oh-My-ZSH, que nada mais é que a configuração do ZSH customizada. Por exemplo, você instala o Oh-My-ZSH e pode escolher qual tema deseha utilizar, entre vários existentes. Veja os [temas existentes.](https://github.com/robbyrussell/oh-my-zsh/wiki/themes).
 
+{% highlight bash %}
+{% endhighlight %}
 
 1º Primeiramente, temos que instalar o ZSH:
 
