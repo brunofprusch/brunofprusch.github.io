@@ -19,10 +19,8 @@ Vamos lá:
 
 1º Primeiramente, temos que instalar o ZSH:
 
-## Code Snippets
-
-  sudo apt-get install zsh
-
+<pre style='color:#000000;background:#ffffff;'><span style='color:#005fd2; '>sudo</span> <span style='color:#0000e6; '>apt-get</span> <span style='color:#0000e6; '>install</span> <span style='color:#0000e6; '>zsh</span>
+</pre>
 
 
 
