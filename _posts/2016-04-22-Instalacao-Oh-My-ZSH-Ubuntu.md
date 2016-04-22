@@ -17,12 +17,11 @@ Tutorial de instalação do Oh-My-ZSH. Você poderia intalar e utilizar o pacote
 
 Vamos lá:
 
-
 1º Primeiramente, temos que instalar o ZSH:
 
-      <pre style='color:#000000;background:#000000;'>
-        <span style='color:#FFFFFF; '>sudo apt-get installzsh</span>
-      </pre>
+{% highlight bash %}
+  sudo apt-get installzsh
+{% endhighlight %}
 
 
 2° Na sequência, baixe e instale o OH-MY-ZSH:
