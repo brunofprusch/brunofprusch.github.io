@@ -9,8 +9,6 @@ comments: true
 
 Tutorial de instalação do Oh-My-ZSH. Você poderia intalar e utilizar o pacote ZSH, porém o mesmo é um pouco complicado de configurar, por este motivo a comunidade criou o Oh-My-ZSH, que nada mais é que a configuração do ZSH customizada. Por exemplo, você instala o Oh-My-ZSH e pode escolher qual tema deseha utilizar, entre vários existentes. Veja os [temas existentes.](https://github.com/robbyrussell/oh-my-zsh/wiki/themes).
 
-##Vamos lá:
-
 1º Primeiramente, temos que instalar o ZSH:
 
 {% highlight bash %}
