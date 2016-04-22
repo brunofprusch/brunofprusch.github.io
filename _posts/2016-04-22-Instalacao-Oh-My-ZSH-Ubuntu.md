@@ -28,86 +28,79 @@ Vamos lá:
 
 Pode escolher em utilizar via curl ou wget.
 
-      <pre style='color:#000000;background:#000000;'>
-        <span style='color:#FFFFFF;'>curl -L http://install.ohmyz.sh | sh</span>
-      </pre>
+{% highlight bash %}
+  curl -L http://install.ohmyz.sh | sh
+{% endhighlight %}
 
-      <pre style='color:#000000;background:#000000;'>
-        <span style='color:#FFFFFF;'>wget --no-check-certificate http://install.ohmyz.sh -O - | sh</span>
-      </pre>
+{% highlight bash %}
+  wget --no-check-certificate http://install.ohmyz.sh -O - | sh
+{% endhighlight %}
 
 e copie a configuração padrão do oh-my-zsh:
 
-      <pre style='color:#000000;background:#000000;'>
-        <span style='color:#FFFFFF;'>cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc</span>
-      </pre>
-
+{% highlight bash %}
+  cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+{% endhighlight %}
 
 
 3° Agora você precisa instalar as fontes pro terminal ficar paulada, então baixe o arquivo da fonte e o da configuração da font (Na localização que você estiver ele vai baixar):
 
-      <pre style='color:#000000;background:#000000;'>
-        <span style='color:#FFFFFF;'>wget https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbols.otf</span>
-      </pre>
+{% highlight bash %}
+  wget https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbols.otf
+{% endhighlight %}
 
-      <pre style='color:#000000;background:#000000;'>
-        <span style='color:#FFFFFF;'>  wget https://github.com/powerline/powerline/raw/develop/font/10-powerline-symbols.conf</span>
-      </pre>
-
+{% highlight bash %}
+  wget https://github.com/powerline/powerline/raw/develop/font/10-powerline-symbols.conf
+{% endhighlight %}
 
 
 4° Agora instale a fonte no seu usuário ubuntu:
 
-      <pre style='color:#000000;background:#000000;'>
-        <span style='color:#FFFFFF;'>ln -s /usr/share/fonts .fonts</span>
-      </pre>
+{% highlight bash %}
+  ln -s /usr/share/fonts .fonts
+{% endhighlight %}
 
-      <pre style='color:#000000;background:#000000;'>
-        <span style='color:#FFFFFF;'>sudo mv PowerlineSymbols.otf ~/.fonts/</span>
-      </pre>
-
+{% highlight bash %}
+  sudo mv PowerlineSymbols.otf ~/.fonts/
+{% endhighlight %}
 
 
 5° Instale a configuração da fonte:
 
-    <pre style='color:#000000;background:#000000;'>
-      <span style='color:#FFFFFF;'>mkdir -p ~/.config/fontconfig/conf.d/</span>
-    </pre>
+{% highlight bash %}
+  mkdir -p ~/.config/fontconfig/conf.d/
+{% endhighlight %}
 
-    <pre style='color:#000000;background:#000000;'>
-      <span style='color:#FFFFFF;'>mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/</span>
-    </pre>
-
+{% highlight bash %}
+  mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
+{% endhighlight %}
 
 
 6° Force o sistema a recarregar as fontes novas:
 
-    <pre style='color:#000000;background:#000000;'>
-      <span style='color:#FFFFFF;'>fc-cache -vf ~/.fonts/</span>
-    </pre>
-
+{% highlight bash %}
+  fc-cache -vf ~/.fonts/
+{% endhighlight %}
 
 
 7º Agora vamos tornar o ZSH seu bash padrão:
 
-    <pre style='color:#000000;background:#000000;'>
-      <span style='color:#FFFFFF;'>chsh -s /bin/zsh</span>
-    </pre>
-
+{% highlight bash %}
+  chsh -s /bin/zsh
+{% endhighlight %}
 
 
 8º Como eu curto o tema agnoster, configuro o oh-my-zsh para usar ele. Edite o arquivo de configuração:
 
-    <pre style='color:#000000;background:#000000;'>
-      <span style='color:#FFFFFF;'>gedit ~/.zshrc</span>
-    </pre>
+{% highlight bash %}
+  gedit ~/.zshrc
+{% endhighlight %}
 
 Mude a linha da propriedade "ZSH_THEME" para usar o tema, substitua o tema pelo agnoster. A linha deve ficar assim:
 
-    <pre style='color:#000000;background:#000000;'>
-      <span style='color:#FFFFFF;'>ZSH_THEME="agnoster"</span>
-    </pre>
-
+{% highlight bash %}
+  ZSH_THEME="agnoster"
+{% endhighlight %}
 
 
 9° Salve e reinicie seu pc......Agora é só alegria!
