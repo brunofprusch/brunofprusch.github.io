@@ -19,9 +19,9 @@ Vamos lá:
 
 1º Primeiramente, temos que instalar o ZSH:
 
-<pre style='color:#000000;background:#ffffff;'><span style='color:#005fd2; '>sudo</span> <span style='color:#0000e6; '>apt-get</span> <span style='color:#0000e6; '>install</span> <span style='color:#0000e6; '>zsh</span>
+<pre style='color:#000000;background:#000000;'>
+  <span style='color:#FFFFFF; '>sudo apt-get installzsh</span>
 </pre>
-
 
 
 2° Na sequência, baixe e instale o OH-MY-ZSH:
