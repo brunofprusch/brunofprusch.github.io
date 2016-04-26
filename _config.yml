@@ -4,7 +4,7 @@ title:            Bruno's Blog
 locale:           pt_BR
 url:
 comments:
-  provider               : disqus
+  provider               : "disqus"
   disqus:
     shortname            : brunofprusch
   facebook:    # https://developers.facebook.com/docs/plugins/comments
