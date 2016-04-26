@@ -6,7 +6,7 @@ url:
 comments:
   provider               : "disqus"
   disqus:
-    shortname            : brunofprusch
+    shortname            : brunofprusch-github-io
   facebook:    # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
