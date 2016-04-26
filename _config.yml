@@ -12,15 +12,6 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
 
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      comments: true
-
-
 # Jekyll configuration
 
 permalink:   /:categories/:title/
