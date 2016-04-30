@@ -5,8 +5,6 @@ excerpt: "Tutorial de instalação e configuração do Oh-My-ZSH"
 modified: 2016-04-22
 tags: [intro, beginner, jekyll, tutorial]
 comments: true
-image:
-  feature: oh-my-zsh_post.png
 ---
 
 Antes de começar a escrever a respeito do Oh-My-ZSH, nao poderia deixar de agradecer aos meus colegas de trabalho Anderson Konzen, por ter realizado há um tempo atrás um devour a respeito do Oh-My-ZSH e ao Rafael Garbin que me incentivou a criar este blog, na qual é uma excelente forma de armazenar conhecimento bem como uma forma de compartilhar conhecimento.
