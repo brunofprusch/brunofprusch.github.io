@@ -10,7 +10,7 @@ comments: true
 Antes de começar a escrever a respeito do Oh-My-ZSH, nao poderia deixar de agradecer aos meus colegas de trabalho Anderson Konzen, por ter realizado há um tempo atrás um devour a respeito do Oh-My-ZSH e ao Rafael Garbin que me incentivou a criar este blog, na qual é uma excelente forma de armazenar conhecimento bem como uma forma de compartilhar conhecimento.
 
 
-### Falando sobre o Oh-My-ZSH!
+##### Falando sobre o Oh-My-ZSH!
 
 
 Você poderia instalar e utilizar o pacote ZSH, porém o mesmo é um pouco complicado de configurar, por este motivo a comunidade criou o Oh-My-ZSH, que nada mais é que a configuração do ZSH customizada.
@@ -19,8 +19,8 @@ Uma das coisas que mais gostei e gosto do Oh-My-ZSH são os temas, podemos escol
 
 O oh-my-zsh é um projeto Open Source, sendo assim não poderia deixar de colocar o link do mesmo no GitHub. [Respositório](https://github.com/robbyrussell/oh-my-zsh)
 
-Vamos aos passos para instalção e configuração
 
+##### Vamos aos passos para instalção e configuração
 
 1º Primeiramente, temos que instalar o ZSH:
 
