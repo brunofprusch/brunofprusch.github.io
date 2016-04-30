@@ -15,9 +15,9 @@ Antes de começar a escrever a respeito do Oh-My-ZSH, nao poderia deixar de agra
 
 Você poderia instalar e utilizar o pacote ZSH, porém o mesmo é um pouco complicado de configurar, por este motivo a comunidade criou o Oh-My-ZSH, que nada mais é que a configuração do ZSH customizada.
 
-Uma das coisas que mais gostei e gosto do Oh-My-ZSH são os temas, podemos escolher entre vários temas e grande parte deles se tornam muito úteis quando trabalhos com o Git, pois mostram por exemplo a branch que você está, o que na minha opinião é excelente. [Aqui](https://github.com/robbyrussell/oh-my-zsh/wiki/themes) você pode conferir vários destes temas e escolher o que mais gostar, pois mostrarei como utilizar o tema desejado.
+Uma das coisas que mais gostei e gosto do Oh-My-ZSH são os temas, podemos escolher entre vários temas e grande parte deles se tornam muito úteis quando trabalhamos com o Git, pois mostram por exemplo a branch que você está, o que na minha opinião é excelente. [Aqui](https://github.com/robbyrussell/oh-my-zsh/wiki/themes) você pode conferir vários destes temas e escolher o que mais gostar, pois mostrarei como utilizar o tema desejado.
 
-O oh-my-zsh é um projeto Open Source, sendo assim não poderia deixar de colocar o link do mesmo no GitHub. [Respositório](https://github.com/robbyrussell/oh-my-zsh)
+O Oh-My-ZSH é um projeto Open Source, sendo assim não poderia deixar de colocar o link do mesmo no GitHub. [Respositório](https://github.com/robbyrussell/oh-my-zsh)
 
 
 ##### Vamos aos passos para instalção e configuração
