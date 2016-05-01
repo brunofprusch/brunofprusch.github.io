@@ -25,7 +25,7 @@ O Oh-My-ZSH é um projeto Open Source, sendo assim não poderia deixar de coloca
 1º Primeiramente, temos que instalar o ZSH:
 
 {% highlight bash %}
-  sudo apt-get installzsh
+  sudo apt-get install zsh
 {% endhighlight %}
 
 
