@@ -20,7 +20,7 @@ Uma das coisas que mais gostei e gosto do Oh-My-ZSH são os temas, podemos escol
 O Oh-My-ZSH é um projeto Open Source, sendo assim não poderia deixar de colocar o link do mesmo no GitHub. [Respositório](https://github.com/robbyrussell/oh-my-zsh)
 
 
-##### Vamos aos passos para instalção e configuração
+##### Vamos aos passos para instalação e configuração
 
 1º Primeiramente, temos que instalar o ZSH:
 
