@@ -11,13 +11,13 @@ Este post não tem o objetivo de explicar o que é Docker e como ele funciona, �
 
 ##### Comandos de manipulação de imagens
 
-- Listar as images existente localmente ou no host que está configurado:
+######### Listar as images existente localmente ou no host que está configurado:
 
 {% highlight bash %}
 docker images
 {% endhighlight %}
 
-- Remover uma imagem:
+######### Remover uma imagem:
 
 {% highlight bash %}
 docker rmi <id da imagem>
