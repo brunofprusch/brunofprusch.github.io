@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Comando Úteis do Docker
+title: Comandos Úteis do Docker
 excerpt: "Comandos Úteis do Docker"
 modified: 2016-05-07
 tags: [intro, beginner, jekyll, tutorial]
