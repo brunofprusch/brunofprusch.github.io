@@ -20,26 +20,28 @@ Este post não tem o objetivo de explicar o que é Docker e como ele funciona, �
 
 - Remover uma imagem:
 
-{% highlight bash %}
-docker rmi <id da imagem>
-{% endhighlight %}
+```bash
+ docker rmi <id da imagem>
+```
 
  
 - Remover todas as images:
 
-{% highlight bash %}
-docker rmi $(docker images -q)
-{% endhighlight %}
+```bash
+ docker rmi $(docker images -q)
+```
 
 
 - Contruir uma imagem a partir de um Dockerfile
 
-{% highlight bash %}
+```bash
  docker build -t <nome_da_imagem> <caminho_para_dockerfile>
-{% endhighlight %}
+```
 
-Exemplo: docker build -t test .
-
+	Exemplo: 
+		```bash
+		 docker build -t test .
+		```
 
 ##### Comandos de manipulação de containers
 
