@@ -15,9 +15,7 @@ Este post não tem o objetivo de explicar o que é Docker e como ele funciona, �
 - Listar as images existente localmente ou no host que está configurado:
 
 ```bash
-
-	docker images
-
+  docker images
 ```
 
 - Remover uma imagem:
