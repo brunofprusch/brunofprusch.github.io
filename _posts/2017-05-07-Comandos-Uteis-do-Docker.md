@@ -5,6 +5,8 @@ excerpt: "Comandos Úteis do Docker"
 modified: 2016-05-07
 tags: [intro, beginner, jekyll, tutorial]
 comments: true
+image:
+  feature: docker-logo.png
 ---
 
 Este post não tem o objetivo de explicar o que é Docker e como ele funciona, é apenas um post contendo comandos úteis muito utilizados ao se trabalhar com o Docker.
@@ -24,7 +26,6 @@ Este post não tem o objetivo de explicar o que é Docker e como ele funciona, �
  docker rmi <id da imagem>
 ```
 
- 
 - Remover todas as images:
 
 ```bash
@@ -41,14 +42,14 @@ Este post não tem o objetivo de explicar o que é Docker e como ele funciona, �
 	 	docker build -t test .
 ```
 
-##### Comandos de manipulação de containers
 
+##### Comandos de manipulação de containers
 
 - Listar os containers em execução:
 
-{% highlight bash %}
-docker ps
-{% endhighlight %}
+```bash
+ docker ps
+```
 
 
 - Remover um container:
