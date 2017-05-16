@@ -37,9 +37,8 @@ Este post não tem o objetivo de explicar o que é Docker e como ele funciona, �
 ```bash
  docker build -t <nome_da_imagem> <caminho_para_dockerfile>
 
- Exemplo:
-
- 	docker build -t test .
+	 Exemplo:
+	 	docker build -t test .
 ```
 
 ##### Comandos de manipulação de containers
