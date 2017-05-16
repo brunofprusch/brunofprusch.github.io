@@ -11,36 +11,47 @@ Este post não tem o objetivo de explicar o que é Docker e como ele funciona, �
 
 ##### Comandos de manipulação de imagens
 
-######### Listar as images existente localmente ou no host que está configurado:
 
-{% highlight bash %}
+- Listar as images existente localmente ou no host que está configurado:
+
+```bash
 docker images
-{% endhighlight %}
+```
 
-######### Remover uma imagem:
+- Remover uma imagem:
 
 {% highlight bash %}
 docker rmi <id da imagem>
 {% endhighlight %}
- 
- - Remover todas as images:
-
- 	docker rmi $(docker images -q)
 
  
- - Listar os containers em execução:
+- Remover todas as images:
 
- 	docker ps
+{% highlight bash %}
+docker rmi $(docker images -q)
+{% endhighlight %}
 
 
- - Contruir uma imagem a partir de um Dockerfile
+- Contruir uma imagem a partir de um Dockerfile
 
- 	docker build -t <nome_da_imagem> <caminho_para_dockerfile>
+{% highlight bash %}
+ docker build -t <nome_da_imagem> <caminho_para_dockerfile>
+{% endhighlight %}
 
- 		Exemplo: docker build -t test .
+Exemplo: docker build -t test .
 
- 
- - Remover um container:
+
+##### Comandos de manipulação de containers
+
+
+- Listar os containers em execução:
+
+{% highlight bash %}
+docker ps
+{% endhighlight %}
+
+
+- Remover um container:
 
  	docker rm -f <id do container>
 
@@ -59,14 +70,14 @@ docker rmi <id da imagem>
 
  -  Executando um container já passando um comando para uma determinada ação, como por exemplo acessar o terminal:
 
-	docker run -ti <nome da imagem> <comando>
+	docker run -it <nome da imagem> <comando>
 
 		Exemplo: docker run -it ubuntu /bin/bash
 
  
  - Executando um container mapeando porta:
 
- 	docker run -ti -p <portas> <nome da imagem>
+ 	docker run -it -p <portas> <nome da imagem>
 
  		Exemplo: docker run -it -p 8080:80 ubuntu
 
