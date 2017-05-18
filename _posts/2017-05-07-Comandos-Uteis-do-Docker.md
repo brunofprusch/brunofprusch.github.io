@@ -22,20 +22,20 @@ Este post não tem o objetivo de explicar o que é Docker e como ele funciona, �
 
 - Remover uma imagem:
 
-```bash
+```
  docker rmi <id da imagem>
 ```
 
 - Remover todas as images:
 
-```bash
+```
  docker rmi $(docker images -q)
 ```
 
 
 - Contruir uma imagem a partir de um Dockerfile
 
-```bash
+```
  docker build -t <nome_da_imagem> <caminho_para_dockerfile>
 
 	 Exemplo:
@@ -47,34 +47,37 @@ Este post não tem o objetivo de explicar o que é Docker e como ele funciona, �
 
 - Listar os containers em execução:
 
-```bash
+```
  docker ps
 ```
 
-
 - Remover um container:
 
- 	docker rm -f <id do container>
-
- 		* O -f é para forçar a remoção
-
- 
- -  Remover todos os containers em execução:
-
-	docker rm -f $(docker ps -qa)
+```
+ docker rm -f <id do container>
+```
+O -f é para forçar a remoção
 
  
- - Executando um container:
+- Remover todos os containers em execução:
 
-	docker run <nome da imagem>
+```
+ docker rm -f $(docker ps -qa)
+```
  
+- Executando um container:
 
- -  Executando um container já passando um comando para uma determinada ação, como por exemplo acessar o terminal:
+```
+ docker run <nome da imagem>
+```
 
-	docker run -it <nome da imagem> <comando>
+- Executando um container já passando um comando para uma determinada ação, como por exemplo acessar o terminal:
 
-		Exemplo: docker run -it ubuntu /bin/bash
+```
+ docker run -it <nome da imagem> <comando>
 
+	Exemplo: docker run -it ubuntu /bin/bash
+```
  
  - Executando um container mapeando porta:
 
