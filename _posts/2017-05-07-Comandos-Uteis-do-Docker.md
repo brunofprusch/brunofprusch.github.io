@@ -14,13 +14,13 @@ Este post não tem o objetivo de explicar o que é Docker e como ele funciona, �
 ### Comandos de manipulação de imagens
 
 
-##### Listar as images existente localmente ou no host que está configurado:
+###### Listar as images existente localmente ou no host que está configurado:
 
 ```
  docker images
 ```
 
-##### Remover uma imagem:
+###### Remover uma imagem:
 
 ```
  docker rmi <id da imagem>
