@@ -26,14 +26,13 @@ Este post não tem o objetivo de explicar o que é Docker e como ele funciona, �
  docker rmi <id da imagem>
 ```
 
-- Remover todas as images:
+###### Remover todas as images:
 
 ```
  docker rmi $(docker images -q)
 ```
 
-
-- Contruir uma imagem a partir de um Dockerfile
+###### Contruir uma imagem a partir de um Dockerfile
 
 ```
  docker build -t <nome_da_imagem> <caminho_para_dockerfile>
@@ -43,15 +42,15 @@ Este post não tem o objetivo de explicar o que é Docker e como ele funciona, �
 ```
 
 
-##### Comandos de manipulação de containers
+### Comandos de manipulação de containers
 
-- Listar os containers em execução:
+###### Listar os containers em execução:
 
 ```
  docker ps
 ```
 
-- Remover um container:
+###### Remover um container:
 
 ```
  docker rm -f <id do container>
@@ -59,19 +58,19 @@ Este post não tem o objetivo de explicar o que é Docker e como ele funciona, �
 O -f é para forçar a remoção
 
  
-- Remover todos os containers em execução:
+###### Remover todos os containers em execução:
 
 ```
  docker rm -f $(docker ps -qa)
 ```
  
-- Executando um container:
+###### Executando um container:
 
 ```
  docker run <nome da imagem>
 ```
 
-- Executando um container já passando um comando para uma determinada ação, como por exemplo acessar o terminal:
+###### Executando um container já passando um comando para uma determinada ação, como por exemplo acessar o terminal:
 
 ```
  docker run -it <nome da imagem> <comando>
