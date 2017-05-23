@@ -42,6 +42,8 @@ Este post não tem o objetivo de explicar o que é Docker e como ele funciona, �
 ```
 
 
+
+
 ### Comandos de manipulação de containers
 
 ###### Listar os containers em execução:
