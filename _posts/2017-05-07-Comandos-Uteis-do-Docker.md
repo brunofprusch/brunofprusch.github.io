@@ -80,78 +80,75 @@ O -f é para forçar a remoção
 	Exemplo: docker run -it ubuntu /bin/bash
 ```
  
- - Executando um container mapeando porta:
+###### Executando um container mapeando porta:
 
- 	docker run -it -p <portas> <nome da imagem>
+```
+ docker run -it -p <portas> <nome da imagem>
 
- 		Exemplo: docker run -it -p 8080:80 ubuntu
+	Exemplo: docker run -it -p 8080:80 ubuntu
+```
 
+###### Executando um container especificando a memória:
 
- - Executando um container especificando a memória:
+```
+ docker run -it -m <tamanho da memória> <nome da imagem> <comando>
 
- 	docker run -it -m <tamanho da memória> <nome da imagem> <comando>
-
- 		Exemplo: docker run -ti -m 512M ubuntu /bin/bash
-
- 		Obeservação: Quando não é especificado o tamanho da memória, é utilizado o total de memória do host.
-
-
- - Executando um container especificando a CPU:
-
- 	docker run -ti --cpu-shares <cpu> <nome da imagem> <comando>
-
- 		Exemplo: docker run -ti --cpu-shares 1024 ubutu /bin/bash
-
- 		Observação: Explicar a questão de proporção.
+ 	Exemplo: docker run -ti -m 512M ubuntu /bin/bash
+```
+ Obeservação: Quando não é especificado o tamanho da memória, é utilizado o total de memória do host.
 
 
- - Executando comando dentro do container sem precisar entrar no mesmo:
+###### Executando um container especificando a CPU:
 
- 	docker exec -it <id do container> <comando>
+```
+ docker run -ti --cpu-shares <cpu> <nome da imagem> <comando>
 
- 		Exemplo: docker exec bger54thwrgf4 ps -ef
-
-
- - Obter informações do container em execução:
-
- 		docker inspect <id do container>
+ 	Exemplo: docker run -ti --cpu-shares 1024 ubutu /bin/bash
+```
+ Observação: Explicar a questão de proporção.
 
 
- - Verificar o quanto um container está consumindo, rede, memória, cpu:
+###### Executando comando dentro do container sem precisar entrar no mesmo:
 
- 		docker stats <id do container>
+```
+ docker exec -it <id do container> <comando>
+
+ 	Exemplo: docker exec bger54thwrgf4 ps -ef
+```
+
+###### Obter informações do container em execução:
+
+```
+ docker inspect <id do container>
+```
+
+###### Verificar o quanto um container está consumindo, rede, memória, cpu:
+
+```
+ docker stats <id do container>
+```
 
 
- - Manipular cpu, memória, i/o etc... sem precisar derrubar o container em execução:
 
- 	Observação: O comando docker update está disponível a partir da versão 1.10 do docker.
+### Manipular cpu, memória, i/o etc... sem precisar derrubar o container em execução:
 
- 	
- 	- Manipulando memória:
+ Observação: O comando docker update está disponível a partir da versão 1.10 do docker.
 
-	 		docker update -m <tamanho da memória> <id do container>
+###### Manipulando memória:
 
-	 			Exemplo: docker update -m 256M 98iujdh65fdyb
+```
+ docker update -m <tamanho da memória> <id do container>
 
+	Exemplo: docker update -m 256M 98iujdh65fdyb
+```
 	 
-	 - Manipulando CPU:
+###### Manipulando CPU:
 
-	 		docker update --cpu-shares <tamanho do cpu> <id do container>
+```
+ docker update --cpu-shares <tamanho do cpu> <id do container>
 
-	 			Exemplo: docker update --cpu-shares 512 98iujdh65fdyb
-
-
-
-
-
-
- #### referenre a criação de imagem com Docker file:
-
- 	- Um docker file por diretório somente, pois na criação da imagem se aponta para o diretório que consequentemente só tem um Dockerfile dentro.
-
- 	- Legal sempre colocar no Dockerfile o MAINTAINER, ou seja, quem criou o Dockerfile, o email por exemplo.
-
- 	- 
+	Exemplo: docker update --cpu-shares 512 98iujdh65fdyb
+```
 
 
 
