@@ -10,4 +10,4 @@ image:
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
-Desenvolver de Software com quatro anos de experiência, sempre em busca de novos conhecimentos.
+Desenvolver de Software com seis anos de experiência, sempre em busca de novos conhecimentos.
